@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",
+      "module": "commonjs",
+      "target": "es2015",          // Target ES2015 or later to include Set
+      "declaration": true,
+      "sourceMap": true,
+      "lib": ["es2015", "dom"],    // Include ES2015 and DOM libraries
+      "strict": true
+    },
+    "include": ["src/**/*"]
+  }
+  

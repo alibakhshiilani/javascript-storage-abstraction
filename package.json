@@ -1,0 +1,22 @@
+{
+    "name": "storage-manager",
+    "version": "1.0.0",
+    "description": "A TypeScript library for managing different storage mechanisms with dependency injection.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+      "build": "tsc",
+      "prepublishOnly": "npm run build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yourusername/storage-manager.git"
+    },
+    "keywords": ["typescript", "storage", "localStorage", "IndexedDB", "dependency injection"],
+    "author": "Your Name",
+    "license": "MIT",
+    "devDependencies": {
+      "typescript": "^5.0.0"
+    }
+  }
+  
